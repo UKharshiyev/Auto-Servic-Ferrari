@@ -17,5 +17,6 @@ export default {
 <style>
 #app {
     font-family: "Montserrat";
+    background: linear-gradient(#333333, #1A1A1A);
 }
 </style>

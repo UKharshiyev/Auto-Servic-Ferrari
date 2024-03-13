@@ -141,7 +141,6 @@ export default {
 
 <style scoped>
 .submit-application-container {
-    background: linear-gradient(#1A1A1A,#333333);
     padding: 50px 0 0 4% ;
 }
 
@@ -265,6 +264,11 @@ export default {
     border: 1px solid #FF0000;
     border-radius: 10px;
     font-size: 30px;
+    background-image: url("../assets/img/aplication-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #1A1A1A;
+
 }
 
 .form-control, #inputGroup-sizing-default, input, .submit-application-btn{
