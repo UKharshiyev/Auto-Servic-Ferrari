@@ -41,6 +41,52 @@
             <img src="../assets/icons/listing-down.png" class="listing-down-img me-3">
             Листайте вниз
         </div>
+        <div class="submit-application px-1 px-2 px-sm-4 pt-4 text-light">
+            <div>
+                <span class="text-warning d-block">Чтобы узнать точную стоимость работ,</span>
+                запишитесь на бесплатную консультацию
+            </div>
+            <div class="row mt-4">
+                <div class="pe-0 col-12 col-md-6 col-lg-4">
+                    <div class="input-group input-application">
+                        <input type="text" class="form-control" placeholder="Ваше имя" aria-label="Recipient's username" aria-describedby="inputGroup-sizing-default">
+                    </div>
+                </div>
+                <div class="py-2 pe-0 py-sm-0 col-12 col-md-6 col-lg-4 mt-3 mt-md-0">
+                    <div class="input-group input-application">
+                     <span class="input-group-text p-0" id="inputGroup-sizing-default">
+                                <div class="dropdown">
+                                        <button class="btn border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                              <img src="../assets/icons/russia.png" class="me-2">
+                                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-chevron-down mt-1" viewBox="0 0 16 16">
+                                                  <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                                              </svg>
+                                        </button>
+                                      <ul class="dropdown-menu dropdown-menu-dark">
+                                        <li><a class="dropdown-item active" href="#">RU</a></li>
+                                        <li><a class="dropdown-item" href="#">UZ</a></li>
+                                        <li><a class="dropdown-item" href="#">ENG</a></li>
+                                      </ul>
+                                </div>
+                            </span>
+                        <input type="text" placeholder="+7 (999) 999-99-99" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 pe-0 mt-3 mt-lg-0">
+                   <div>
+                       <button
+                           type="button"
+                           class="btn  form-control submit-application-btn"
+                       >
+                           ЗАПИСАТЬСЯ
+                       </button>
+                   </div>
+                </div>
+            </div>
+            <p>
+                Оставляя заявку, вы даете согласие на обработку персональных данных
+            </p>
+        </div>
     </div>
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -71,7 +117,7 @@
                                         <li><a class="dropdown-item" href="#">UZ</a></li>
                                         <li><a class="dropdown-item" href="#">ENG</a></li>
                                       </ul>
-                                    </div>
+                                </div>
                             </span>
                         <input type="text" placeholder="+7 (999) 999-99-99" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                     </div>
@@ -213,6 +259,32 @@ export default {
 .dropdown-menu-dark li {
     z-index: 2;
 }
+
+.submit-application {
+    margin-right: 4%;
+    border: 1px solid #FF0000;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.form-control, #inputGroup-sizing-default, input, .submit-application-btn{
+    height: 43px;
+}
+.submit-application-btn {
+    background-color: #FF0000;
+    color: white;
+    margin-bottom: 6px;
+    max-width: 280px;
+}
+
+.input-application {
+    max-width: 400px;
+}
+
+.submit-application p {
+    margin-top: 20px;
+    font-size: 13px;
+}
 @media screen and (max-width: 1000px) {
     .auto-img-1 {
         margin-left: 0;
@@ -231,6 +303,10 @@ export default {
 
     .submit-title {
         font-size: 30px;
+    }
+
+    .submit-application {
+        font-size: 20px;
     }
 }
 
@@ -260,6 +336,10 @@ export default {
     .modal-content p {
         font-size: 14px;
     }
+
+    .submit-application {
+        font-size: 18px;
+    }
 }
 
 
@@ -286,6 +366,14 @@ export default {
     .close-btn svg {
         width: 30px;
         height: 30px;
+    }
+
+    .submit-application div {
+        font-size: 14px;
+    }
+
+    .input-application {
+        max-width: 280px;
     }
 }
 </style>
