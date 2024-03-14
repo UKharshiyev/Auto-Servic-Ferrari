@@ -72,7 +72,7 @@
                         <input type="text" placeholder="+7 (999) 999-99-99" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                     </div>
                 </div>
-                <div class="col-12 col-lg-4 pe-0 mt-3 mt-lg-0">
+                <div class="col-12 col-lg-4 pe-2 mt-3 mb-2 mt-lg-0">
                    <div>
                        <button
                            type="button"
@@ -83,9 +83,9 @@
                    </div>
                 </div>
             </div>
-            <p>
+            <div class="mb-3">
                 Оставляя заявку, вы даете согласие на обработку персональных данных
-            </p>
+            </div>
         </div>
     </div>
     <!-- Modal -->
@@ -141,7 +141,7 @@ export default {
 
 <style scoped>
 .submit-application-container {
-    padding: 50px 0 0 4% ;
+    padding: 50px 0 60px 4%
 }
 
 .auto-img-1 {
@@ -160,6 +160,8 @@ export default {
 }
 
 .submit-title {
+    font-weight: 800;
+    font-size: 42px;
     font-family: "Montserrat ExtraBold";
 }
 
@@ -187,7 +189,7 @@ export default {
 
 .auto-name {
     right: 9%;
-    top: 44%;
+    top: 36%;
     font-size: 100px;
     position: absolute;
     z-index: 1;
@@ -268,7 +270,7 @@ export default {
     background-repeat: no-repeat;
     background-position: right;
     background-color: #1A1A1A;
-
+    font-weight: 600;
 }
 
 .form-control, #inputGroup-sizing-default, input, .submit-application-btn{
@@ -283,11 +285,6 @@ export default {
 
 .input-application {
     max-width: 400px;
-}
-
-.submit-application p {
-    margin-top: 20px;
-    font-size: 13px;
 }
 @media screen and (max-width: 1000px) {
     .auto-img-1 {
@@ -311,6 +308,10 @@ export default {
 
     .submit-application {
         font-size: 20px;
+    }
+
+    .submit-application {
+        background-size: 705px;
     }
 }
 
@@ -353,7 +354,8 @@ export default {
     }
 
     .submit-title {
-        font-size: 15px;
+        font-size: 21px;
+
     }
     .learn-button {
         width: 96%;
@@ -376,8 +378,12 @@ export default {
         font-size: 14px;
     }
 
-    .input-application {
-        max-width: 280px;
+    .input-application, .submit-application-btn {
+        max-width: 270px;
+    }
+
+    .submit-application {
+        background-size: 782px;
     }
 }
 </style>

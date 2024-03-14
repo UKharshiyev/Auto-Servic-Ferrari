@@ -22,9 +22,9 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav text-center">
                         <li class="nav-item ps-lg-5 ms-lg-2 ms-xl-5">
-                            <router-link class="nav-link text-white" to="#">
+                            <a class="nav-link text-white" href="#our-service">
                                 Услуги
-                            </router-link>
+                            </a>
                         </li>
                         <li class="nav-item">
                             <router-link class="nav-link text-white" to="#">
