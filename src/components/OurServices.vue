@@ -55,29 +55,37 @@ export default {
         return {
             servicesImg: [
                 {
-                    url: 'img-service/img-1.png',
+                    url: '/img-service/img-1.png',
                     name: 'ТЕХ.ОБСЛУЖИВАНИЕ'
                 },
                 {
-                    url: 'img-service/img-1.png',
-                    name: 'ТЕХ.ОБСЛУЖИВАНИЕ'
+                    url: '/img-service/img-2.png',
+                    name: 'ДИАГНОСТИКА'
                 },
                 {
-                    url: 'img-service/img-1.png',
-                    name: 'ТЕХ.ОБСЛУЖИВАНИЕ'
+                    url: '/img-service/img-3.png',
+                    name: 'ХОДОВАЯ ЧАСТЬ'
                 },
                 {
-                    url: 'img-service/img-1.png',
+                    url: '/img-service/img-4.png',
+                    name: 'ТРАНСМИССИЯ'
+                },
+                {
+                    url: '/img-service/img-5.png',
+                    name: 'ДВИГАТЕЛЬ'
+                },
+                {
+                    url: '/img-service/img-6.png',
                     name: 'ВЫХЛОПНАЯ\n' +
                         'СИСТЕМА'
                 },
                 {
-                    url: 'img-service/img-1.png',
-                    name: 'ТЕХ.ОБСЛУЖИВАНИЕ'
+                    url: '/img-service/img-7.png',
+                    name: 'РУЛЕВОЕ УПРАВЛЕНИЕ'
                 },
                 {
-                    url: 'img-service/img-1.png',
-                    name: 'ТЕХ.ОБСЛУЖИВАНИЕ'
+                    url: '/img-service/img-8.png',
+                    name: 'ТОПЛИВНАЯ СИСТЕМА'
                 },
             ]
         }
@@ -93,9 +101,8 @@ export default {
     padding-bottom:  40px;
 }
 .page-name {
-    font-size: 21px;
     font-weight: 800;
-
+    font-size: 32px;
 }
 
 .the-service {
@@ -113,9 +120,6 @@ export default {
     margin-top: 10px;
     font-size: 10px;
     font-weight: 600;
-}
-.page-name {
-    font-size: 32px;
 }
 
 .heading-benefits img{
