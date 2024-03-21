@@ -27,14 +27,14 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <router-link class="nav-link text-white" to="#">
+                            <a class="nav-link text-white" href="#heading-benefits">
                                 Преимущества
-                            </router-link>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <router-link class="nav-link text-white" to="#">
+                            <a class="nav-link text-white" href="#our-works">
                                 Наши работы
-                            </router-link>
+                            </a>
                         </li>
                         <li class="nav-item">
                             <router-link class="nav-link text-white" to="#">

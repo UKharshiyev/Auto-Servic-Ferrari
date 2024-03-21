@@ -14,10 +14,10 @@
                 </div>
             </div>
         </div>
-        <div class="page-name page-title mt-4 mb-3">
+        <div class="page-name page-title mt-4 mb-3" id="heading-benefits">
             Почему стоит выбрать нас
         </div>
-        <div class="heading-benefits row ">
+        <div class="heading-benefits row">
             <div class="col-md-6 col-lg-4 mt-4">
                 <img src="../assets/icons/cub.png">
                 <div class="heading mt-2">
@@ -97,8 +97,12 @@ export default {
 <style scoped>
 .our-service {
     color: white;
-    margin: 0 4%;
-    padding-bottom:  40px;
+    padding: 0 4% 40px;
+    background-image: url("../assets/img/ferrari_logo_bg_icon.png");
+    background-repeat: no-repeat;
+    background-position: 0 30%;
+    background-size: 210px;
+
 }
 .page-name {
     font-weight: 800;
