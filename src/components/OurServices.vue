@@ -19,7 +19,7 @@
         </div>
         <div class="heading-benefits row">
             <div class="col-md-6 col-lg-4 mt-4">
-                <img src="../assets/icons/cub.png">
+                <img src="../assets/icons/cub.png" width="100">
                 <div class="heading mt-2">
                     Заголовок преимущества
                 </div>
@@ -28,7 +28,7 @@
                 </p>
             </div>
             <div class="col-md-6 col-lg-4 mt-4">
-                <img src="../assets/icons/motor-icon.png">
+                <img src="../assets/icons/motor-icon.png" width="100">
                 <div class="heading mt-2">
                     Заголовок преимущества
                 </div>
@@ -37,7 +37,7 @@
                 </p>
             </div>
             <div class="col-md-6 col-lg-4 mt-4">
-                <img src="../assets/icons/icon-time.png">
+                <img src="../assets/icons/icon-time.png" width="100">
                 <div class="heading mt-2">
                     Заголовок преимущества
                 </div>

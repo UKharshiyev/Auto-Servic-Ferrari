@@ -3,6 +3,7 @@
     <SubmitApplication/>
     <OurServices/>
     <OurWorks/>
+    <Contacts/>
 </template>
 
 <script>
@@ -11,10 +12,11 @@ import Navbar from "@/components/Navbar.vue";
 import SubmitApplication from "@/components/SubmitApplication.vue";
 import OurServices from "@/components/OurServices.vue";
 import OurWorks from "@/components/OurWorks.vue";
+import Contacts from "@/components/Contacts.vue";
 
 export default {
   name: 'App',
-    components: {OurWorks, OurServices, SubmitApplication, Navbar},
+    components: {Contacts, OurWorks, OurServices, SubmitApplication, Navbar},
 }
 </script>
 

@@ -20,7 +20,7 @@
         <button type="button" class="btn btn-outline-warning ps-0 pt-0 mt-4 learn-button text-start d-block">
             <div class="row">
                 <div class="col-3">
-                    <img src="../assets/icons/italyIcon.png" class="auto-img-2">
+                    <img src="../assets/icons/italyIcon.png" width="60" class="auto-img-2">
                 </div>
                 <div class="col pt-2 text-white fw-bold">
                     Специально обученные механики
@@ -30,7 +30,7 @@
         <button type="button" class="btn btn-outline-warning ps-0 pt-0 mt-4 learn-button text-start d-block">
             <div class="row">
                 <div class="col-3">
-                    <img src="../assets/icons/kingIcon.png" class="auto-img-3">
+                    <img src="../assets/icons/kingIcon.png" width="60" class="auto-img-3">
                 </div>
                 <div class="col pt-2 text-white fw-bold">
                     Только премиум качество
@@ -38,7 +38,7 @@
             </div>
         </button>
         <div class="listing-down">
-            <img src="../assets/icons/listing-down.png" class="listing-down-img me-3">
+            <img src="../assets/icons/listing-down.png" width="28" class="listing-down-img me-3">
             Листайте вниз
         </div>
         <div class="submit-application px-1 px-2 px-sm-4 pt-4 text-light">
@@ -147,7 +147,7 @@ export default {
 .auto-img-1 {
     margin-left: 30%;
     width: 65%;
-    filter: drop-shadow(0 0 0.90rem #FF0000);
+    filter: drop-shadow(0 0mm 9mm #FF0000);
     position: absolute;
     z-index: 2;
 }
@@ -189,7 +189,7 @@ export default {
 
 .auto-name {
     right: 9%;
-    top: 36%;
+    top: 45%;
     font-size: 100px;
     position: absolute;
     z-index: 1;
@@ -281,6 +281,7 @@ export default {
     color: white;
     margin-bottom: 6px;
     max-width: 280px;
+    font-weight: 600;
 }
 
 .input-application {

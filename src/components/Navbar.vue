@@ -3,7 +3,7 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid ps-2 pe-0">
                 <router-link class="navbar-brand text-light" to="/">
-                    <img src="../assets/img/Logo.png" alt="LOGO"/>
+                    <img src="../assets/img/Logo.png" width="80" alt="LOGO"/>
                 </router-link>
                 <button
                         @click="isCloseNavbar = !isCloseNavbar"
