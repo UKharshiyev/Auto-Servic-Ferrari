@@ -1,6 +1,6 @@
 <template>
     <header>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg" id="navbar">
             <div class="container-fluid ps-2 pe-0">
                 <router-link class="navbar-brand text-light" to="/">
                     <img src="../assets/img/Logo.png" width="80" alt="LOGO"/>
@@ -37,9 +37,9 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <router-link class="nav-link text-white" to="#">
+                            <a class="nav-link text-white" href="#contacts">
                                 Контакты
-                            </router-link>
+                            </a>
                         </li>
                     </ul>
                     <div class="ms-auto text-center">

@@ -1,5 +1,5 @@
 <template>
-    <div class="row contacts-container mx-0">
+    <div class="row contacts-container mx-0" id="contacts">
         <div class="col-12 col-lg-6">
             <h1 class="page-name text-light pb-4">Контакты</h1>
             <div class="row">
@@ -106,7 +106,7 @@
             </div>
         </div>
     </div>
-    <div id="container" class="mt-5"></div>
+    <div id="container" class="mt-4"></div>
 </template>
 
 <script>
@@ -204,7 +204,7 @@ export default {
 
 @media screen and (max-width: 500px) {
     #container {
-        height: 300px;
+        height: 260px;
     }
 
     .page-name{
