@@ -1,11 +1,11 @@
 <template>
-    <div class="row mt-5 pb-5 mx-0 footer-container">
+    <div class="row mt-5 pb-5 pt-4 mx-0 footer-container">
         <div class="col-7 col-lg-10 px-0">
             <div class="row">
 				<div class="col-md-8 col-lg-4 col-xxl-3">
 					<img src="../assets/icons/ferrari-text-icon.png" width="170" class="footer-ferrari-icon d-block">
 					<span class="footer-copy d-block">
-                        © 2023 Company name
+                        © 2024 Company name
                     </span>
 					<span class="footer-copy d-block mt-1 mb-md-0">
                         Все права защищены
