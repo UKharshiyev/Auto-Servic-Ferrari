@@ -106,12 +106,29 @@
             </div>
         </div>
     </div>
+    <div id="container" class="mt-5"></div>
 </template>
 
 <script>
+import { load } from '@2gis/mapgl';
 export default {
     // eslint-disable-next-line vue/multi-word-component-names
-    name: "Contacts"
+    name: "Contacts",
+    mounted() {
+        load().then((mapglAPI) => {
+            let map = new mapglAPI.Map('container', {
+                center: [37.592631, 55.742371],
+                zoom: 12,
+                key: "912e999f-1634-437f-bca1-a422fc33dcb6",
+            });
+
+            new mapglAPI.Marker(map, {
+                coordinates: [37.592631, 55.742371],
+                icon: '/location-icon.png',
+                size: [35, 70]
+            });
+        });
+    }
 }
 </script>
 
@@ -180,7 +197,16 @@ export default {
     display: block;
 }
 
+#container {
+    width: 100%;
+    height: 400px;
+}
+
 @media screen and (max-width: 500px) {
+    #container {
+        height: 300px;
+    }
+
     .page-name{
         font-size: 32px;
     }
