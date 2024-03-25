@@ -93,6 +93,11 @@ header {
     color: #FF0000;
 }
 
+.navbar-collapse {
+	font-size: 16px;
+	
+}
+
 .nav-link:hover {
     color: #FF0000 !important;
 }

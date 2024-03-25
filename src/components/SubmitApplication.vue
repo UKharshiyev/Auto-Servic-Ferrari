@@ -2,7 +2,6 @@
     <div class="submit-application-container position-relation">
         <h1 class="text-white submit-title">ПРЕВОСХОДСТВО В ОБСЛУЖИВАНИИ</h1>
         <h2 class="text-white submit-title-2 mt-4">Ваша машина в надежных руках!</h2>
-        <img src="../assets/icons/bg-logo-icon.png" class="bg-logo-icon">
         <div class="container-img-auto">
             <img src="../assets/img/auto-1.png" class="auto-img-1">
         <span class="auto-name">
@@ -141,7 +140,10 @@ export default {
 
 <style scoped>
 .submit-application-container {
-    padding: 50px 0 60px 4%
+    padding: 50px 0 60px 4%;
+	background-image: url("../assets/icons/bg-logo-icon.png");
+	background-repeat: no-repeat;
+	background-position: right 7%;
 }
 
 .auto-img-1 {
@@ -150,13 +152,6 @@ export default {
     filter: drop-shadow(0 0mm 9mm #FF0000);
     position: absolute;
     z-index: 2;
-}
-
-.bg-logo-icon {
-    position: absolute;
-    right: 0;
-    bottom: 14%;
-    z-index: 1;
 }
 
 .submit-title {
@@ -325,11 +320,6 @@ export default {
         font-size: 22px;
     }
 
-    .bg-logo-icon {
-        bottom: 25%;
-    }
-
-
     .auto-name {
         font-size: 64px;
         top: -20%;
@@ -346,6 +336,11 @@ export default {
     .submit-application {
         font-size: 18px;
     }
+	
+	.submit-application-container {
+		background-position: right 0;
+		background-size: 250px;
+	}
 }
 
 
@@ -386,5 +381,10 @@ export default {
     .submit-application {
         background-size: 782px;
     }
+    
+    .submit-application-container {
+		background-position: right 0;
+		background-size: 180px;
+	}
 }
 </style>
